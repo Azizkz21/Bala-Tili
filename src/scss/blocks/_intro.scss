@@ -1,0 +1,68 @@
+.section-intro {
+  background-image: url("./../../img/intro/intro-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 564px;
+}
+.intro__container {
+  padding: 56px 30px 207px;
+  display: flex;
+  flex-direction: column;
+  gap: 128px;
+}
+.breadcrumbs__list {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}
+.breadcrumbs__item {
+  position: relative;
+
+  &:not(:last-child)::after {
+    content: "/";
+    position: absolute;
+    color: $colorTextLink;
+    font-size: 16px;
+    line-height: 24px;
+    bottom: -1px;
+    right: -13px;
+  }
+}
+.breadcrumbs__link {
+  font-family: $fontMain;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: $colorTextLink;
+}
+.intro__desc {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.intro__title {
+  font-family: $fontMain;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 52.8px;
+}
+
+.intro__blockquote {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.intro__quote {
+  font-family: $fontMain;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+.intro__author {
+  font-family: $fontMain;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 28px;
+}

@@ -1,0 +1,14 @@
+.header {
+	background-color: $pageBg;
+	padding: 18px 0;
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 15px;
+	}
+}
+
+
+

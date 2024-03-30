@@ -1,0 +1,19 @@
+.header__nav {
+}
+.nav {
+  font-size: 18px;
+  flex-grow: 1;
+}
+.nav__list {
+  display: flex;
+  column-gap: 40px;
+  justify-content: flex-end;
+}
+
+.nav__link {
+  font-family: $fontMain;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24.55px;
+  color: $colorTextLink;
+}
